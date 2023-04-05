@@ -1,0 +1,12 @@
+Description:
+Add a series of fruit, ice food, hot food effects
+
+Body:
+Dragon fruit, kiwi fruit, lemon, lychee, pineapple, tomato, onion
+
+Well water cellar can ice watermelon
+Eating ice watermelon will have an ice food effect, and eating too much will cause diarrhea
+Iced food can cool down
+
+﻿Increased state: hot food
+Hot food can heat up, see "Xiaoyue food" for corresponding food
