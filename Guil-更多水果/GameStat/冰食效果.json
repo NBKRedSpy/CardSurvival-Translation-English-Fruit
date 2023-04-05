@@ -1,246 +1,246 @@
 {
-    "BarColor": {
-        "a": 1.0,
-        "b": 1.0,
-        "g": 0.588235,
-        "r": 0.0
+  "BarColor": {
+    "a": 1.0,
+    "b": 1.0,
+    "g": 0.588235,
+    "r": 0.0
+  },
+  "BarHighlightColor": {
+    "a": 1.0,
+    "b": 1.0,
+    "g": 0.854902,
+    "r": 0.647059
+  },
+  "BaseRatePerTick": -1.0,
+  "BaseValue": 0.0,
+  "CannotBeInspected": false,
+  "DefaultStatusDescription": {
+    "DefaultText": "",
+    "LocalizationKey": "",
+    "ParentObjectID": ""
+  },
+  "DefaultStatusIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DefaultStatusIconWarpData": "冰块",
+  "DefaultStatusIconWarpType": 3,
+  "DefaultStatusName": {
+    "DefaultText": "",
+    "LocalizationKey": "",
+    "ParentObjectID": ""
+  },
+  "Description": {
+    "DefaultText": "食用冰冷的食物能够使你感到凉爽",
+    "LocalizationKey": "translate-4fb76665-b529-4c2e-80ad-e34e7ff40d22",
+    "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
+  },
+  "FeedbackInfo": {
+    "Icon": {
+      "m_FileID": 0,
+      "m_PathID": 0
     },
-    "BarHighlightColor": {
-        "a": 1.0,
-        "b": 1.0,
-        "g": 0.854902,
-        "r": 0.647059
+    "IconWarpData": "冰食",
+    "IconWarpType": 3,
+    "Inverted": false,
+    "NegativeIcon": {
+      "m_FileID": 0,
+      "m_PathID": 0
     },
-    "BaseRatePerTick": -1.0,
-    "BaseValue": 0.0,
-    "CannotBeInspected": false,
-    "DefaultStatusDescription": {
+    "StepValue": 10.0
+  },
+  "GameName": {
+    "DefaultText": "冰食",
+    "LocalizationKey": "translate-a099d489-d321-4c42-a765-8ab35a73c600",
+    "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
+  },
+  "InvertedDirection": false,
+  "MaxStalenessStack": 0,
+  "MinMaxRate": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "MinMaxValue": {
+    "x": 0.0,
+    "y": 96.0
+  },
+  "NotEnoughIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "NotEnoughText": {
+    "DefaultText": "",
+    "LocalizationKey": "",
+    "ParentObjectID": ""
+  },
+  "NoveltyCooldownDuration": 0,
+  "OverrideFeedbackPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "RequiredPerks": [],
+  "ShowActionEffects": true,
+  "StalenessMultiplier": 0.0,
+  "StatPriority": 0,
+  "StatusDebugMode": false,
+  "Statuses": [
+    {
+      "ActionsMaxTicks": 0,
+      "AlertLevel": 1,
+      "AlertSounds": [],
+      "ConfidenceModifier": 0.0,
+      "Description": {
         "DefaultText": "",
         "LocalizationKey": "",
         "ParentObjectID": ""
-    },
-    "DefaultStatusIcon": {
-        "m_FileID": 0,
-        "m_PathID": 0
-    },
-    "DefaultStatusIconWarpData": "\u51b0\u5757",
-    "DefaultStatusIconWarpType": 3,
-    "DefaultStatusName": {
-        "DefaultText": "",
-        "LocalizationKey": "",
-        "ParentObjectID": ""
-    },
-    "Description": {
-        "DefaultText": "\u98df\u7528\u51b0\u51b7\u7684\u98df\u7269\u80fd\u591f\u4f7f\u4f60\u611f\u5230\u51c9\u723d",
-        "LocalizationKey": "",
-        "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
-    },
-    "FeedbackInfo": {
-        "Icon": {
+      },
+      "EffectsOnActions": [],
+      "EffectsOnStats": [
+        {
+          "ApplyEachTick": false,
+          "InstantModifier": false,
+          "IsInverse": false,
+          "RateModifier": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "Stat": {
             "m_FileID": 0,
             "m_PathID": 0
-        },
-        "IconWarpData": "\u51b0\u98df",
-        "IconWarpType": 3,
-        "Inverted": false,
-        "NegativeIcon": {
-            "m_FileID": 0,
-            "m_PathID": 0
-        },
-        "StepValue": 10.0
-    },
-    "GameName": {
-        "DefaultText": "\u51b0\u98df",
-        "LocalizationKey": "",
-        "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
-    },
-    "InvertedDirection": false,
-    "MaxStalenessStack": 0,
-    "MinMaxRate": {
-        "x": 0.0,
-        "y": 0.0
-    },
-    "MinMaxValue": {
-        "x": 0.0,
-        "y": 96.0
-    },
-    "NotEnoughIcon": {
-        "m_FileID": 0,
-        "m_PathID": 0
-    },
-    "NotEnoughText": {
-        "DefaultText": "",
-        "LocalizationKey": "",
-        "ParentObjectID": ""
-    },
-    "NoveltyCooldownDuration": 0,
-    "OverrideFeedbackPrefab": {
-        "m_FileID": 0,
-        "m_PathID": 0
-    },
-    "RequiredPerks": [],
-    "ShowActionEffects": true,
-    "StalenessMultiplier": 0.0,
-    "StatPriority": 0,
-    "StatusDebugMode": false,
-    "Statuses": [
-        {
-            "ActionsMaxTicks": 0,
-            "AlertLevel": 1,
-            "AlertSounds": [],
-            "ConfidenceModifier": 0.0,
-            "Description": {
-                "DefaultText": "",
-                "LocalizationKey": "",
-                "ParentObjectID": ""
-            },
-            "EffectsOnActions": [],
-            "EffectsOnStats": [
-                {
-                    "ApplyEachTick": false,
-                    "InstantModifier": false,
-                    "IsInverse": false,
-                    "RateModifier": {
-                        "x": 0.0,
-                        "y": 0.0
-                    },
-                    "Stat": {
-                        "m_FileID": 0,
-                        "m_PathID": 0
-                    },
-                    "StatWarpData": "0d5ec8f104b2ba149b4bb2b536bc21a4",
-                    "StatWarpType": 3,
-                    "ValueModifier": {
-                        "x": -10.0,
-                        "y": -10.0
-                    }
-                }
-            ],
-            "GameName": {
-                "DefaultText": "\u5403\u4e86\u4e00\u4e9b\u51b0\u98df",
-                "LocalizationKey": "",
-                "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
-            },
-            "GameOver": false,
-            "Icon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-            },
-            "IconWarpData": "\u51b0\u98df",
-            "IconWarpType": 3,
-            "NotifyPlayer": 0,
-            "PreventingActionMessage": {
-                "DefaultText": "",
-                "LocalizationKey": "",
-                "ParentObjectID": ""
-            },
-            "RepeatAlertSounds": 0,
-            "RepeatTextNotification": 0,
-            "StatusLog": {
-                "Category": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                },
-                "LogText": {
-                    "DefaultText": "",
-                    "LocalizationKey": "",
-                    "ParentObjectID": ""
-                },
-                "TicksToRegister": 0
-            },
-            "ValueRange": {
-                "x": 1,
-                "y": 47
-            }
-        },
-        {
-            "ActionsMaxTicks": 0,
-            "AlertLevel": 1,
-            "AlertSounds": [],
-            "ConfidenceModifier": 0.0,
-            "Description": {
-                "DefaultText": "",
-                "LocalizationKey": "",
-                "ParentObjectID": ""
-            },
-            "EffectsOnActions": [],
-            "EffectsOnStats": [
-                {
-                    "ApplyEachTick": false,
-                    "InstantModifier": false,
-                    "IsInverse": false,
-                    "RateModifier": {
-                        "x": 0.0,
-                        "y": 0.0
-                    },
-                    "Stat": {
-                        "m_FileID": 0,
-                        "m_PathID": 0
-                    },
-                    "StatWarpData": "0d5ec8f104b2ba149b4bb2b536bc21a4",
-                    "StatWarpType": 3,
-                    "ValueModifier": {
-                        "x": -20.0,
-                        "y": -20.0
-                    }
-                }
-            ],
-            "GameName": {
-                "DefaultText": "\u5403\u4e86\u8bb8\u591a\u51b0\u98df",
-                "LocalizationKey": "",
-                "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
-            },
-            "GameOver": false,
-            "Icon": {
-                "m_FileID": 0,
-                "m_PathID": 0
-            },
-            "IconWarpData": "\u51b0\u98df",
-            "IconWarpType": 3,
-            "NotifyPlayer": 0,
-            "PreventingActionMessage": {
-                "DefaultText": "",
-                "LocalizationKey": "",
-                "ParentObjectID": ""
-            },
-            "RepeatAlertSounds": 0,
-            "RepeatTextNotification": 0,
-            "StatusLog": {
-                "Category": {
-                    "m_FileID": 0,
-                    "m_PathID": 0
-                },
-                "LogText": {
-                    "DefaultText": "",
-                    "LocalizationKey": "",
-                    "ParentObjectID": ""
-                },
-                "TicksToRegister": 0
-            },
-            "ValueRange": {
-                "x": 48,
-                "y": 96
-            }
+          },
+          "StatWarpData": "0d5ec8f104b2ba149b4bb2b536bc21a4",
+          "StatWarpType": 3,
+          "ValueModifier": {
+            "x": -10.0,
+            "y": -10.0
+          }
         }
-    ],
-    "StatusesHaveNoBar": false,
-    "TimeOfDayMods": [],
-    "TooMuchText": {
+      ],
+      "GameName": {
+        "DefaultText": "吃了一些冰食",
+        "LocalizationKey": "translate-2418d948-8dec-40de-8678-86e7c1869085",
+        "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
+      },
+      "GameOver": false,
+      "Icon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IconWarpData": "冰食",
+      "IconWarpType": 3,
+      "NotifyPlayer": 0,
+      "PreventingActionMessage": {
         "DefaultText": "",
         "LocalizationKey": "",
         "ParentObjectID": ""
+      },
+      "RepeatAlertSounds": 0,
+      "RepeatTextNotification": 0,
+      "StatusLog": {
+        "Category": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "LogText": {
+          "DefaultText": "",
+          "LocalizationKey": "",
+          "ParentObjectID": ""
+        },
+        "TicksToRegister": 0
+      },
+      "ValueRange": {
+        "x": 1,
+        "y": 47
+      }
     },
-    "TrendIndicatorRateRange": {
-        "x": 0.0,
-        "y": 0.0
-    },
-    "UniqueID": "a0eecea638a042c991d477803f15f22d",
-    "UsesNovelty": false,
-    "Visibility": 0,
-    "VisibleGameStatStatListTab": "Protection",
-    "VisibleInDetailedList": false,
-    "VisibleValueRange": {
-        "x": 0.0,
-        "y": 0.0
+    {
+      "ActionsMaxTicks": 0,
+      "AlertLevel": 1,
+      "AlertSounds": [],
+      "ConfidenceModifier": 0.0,
+      "Description": {
+        "DefaultText": "",
+        "LocalizationKey": "",
+        "ParentObjectID": ""
+      },
+      "EffectsOnActions": [],
+      "EffectsOnStats": [
+        {
+          "ApplyEachTick": false,
+          "InstantModifier": false,
+          "IsInverse": false,
+          "RateModifier": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "Stat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "StatWarpData": "0d5ec8f104b2ba149b4bb2b536bc21a4",
+          "StatWarpType": 3,
+          "ValueModifier": {
+            "x": -20.0,
+            "y": -20.0
+          }
+        }
+      ],
+      "GameName": {
+        "DefaultText": "吃了许多冰食",
+        "LocalizationKey": "translate-35410531-32d8-4c29-92ac-7dba4c05b610",
+        "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
+      },
+      "GameOver": false,
+      "Icon": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IconWarpData": "冰食",
+      "IconWarpType": 3,
+      "NotifyPlayer": 0,
+      "PreventingActionMessage": {
+        "DefaultText": "",
+        "LocalizationKey": "",
+        "ParentObjectID": ""
+      },
+      "RepeatAlertSounds": 0,
+      "RepeatTextNotification": 0,
+      "StatusLog": {
+        "Category": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "LogText": {
+          "DefaultText": "",
+          "LocalizationKey": "",
+          "ParentObjectID": ""
+        },
+        "TicksToRegister": 0
+      },
+      "ValueRange": {
+        "x": 48,
+        "y": 96
+      }
     }
+  ],
+  "StatusesHaveNoBar": false,
+  "TimeOfDayMods": [],
+  "TooMuchText": {
+    "DefaultText": "",
+    "LocalizationKey": "",
+    "ParentObjectID": ""
+  },
+  "TrendIndicatorRateRange": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "UniqueID": "a0eecea638a042c991d477803f15f22d",
+  "UsesNovelty": false,
+  "Visibility": 0,
+  "VisibleGameStatStatListTab": "Protection",
+  "VisibleInDetailedList": false,
+  "VisibleValueRange": {
+    "x": 0.0,
+    "y": 0.0
+  }
 }

@@ -1,8 +1,8 @@
 {
-    "InGameName": {
-        "DefaultText": "\u690d\u682a",
-        "LocalizationKey": "",
-        "ParentObjectID": "46837849d4468684a837129988389f3b"
-    },
-    "UniqueOnBoard": false
+  "InGameName": {
+    "DefaultText": "植株",
+    "LocalizationKey": "translate-fa124145-daac-41a7-b97a-e6f8db02b617",
+    "ParentObjectID": "46837849d4468684a837129988389f3b"
+  },
+  "UniqueOnBoard": false
 }
