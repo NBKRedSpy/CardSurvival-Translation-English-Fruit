@@ -8,7 +8,7 @@ mkdir -ErrorAction SilentlyContinue $ModFolder
 Remove-Item -ErrorAction SilentlyContinue -Recurse ./Package/*
 Remove-Item -ErrorAction SilentlyContinue $ArchiveName
 
-dotnet publish .\src\更多水果.csproj -o $ModFolder
+dotnet publish .\src\更多水果.csproj -o $ModFolder -c Release
 
 Copy-Item -Recurse "./$ModName/*" $ModFolder
 

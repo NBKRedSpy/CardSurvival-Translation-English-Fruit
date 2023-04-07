@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一口柠檬茶，爽过吸口口！",
-    "LocalizationKey": "translate-4b5497fa-d2dc-47bb-a1fe-b65fad0f6b50",
+    "LocalizationKey": "T-HQzgsxYVAUo26ypUaDfJ0GnhvS0=",
     "ParentObjectID": "5481d599322f41d3b88249442ec4e8c0"
   },
   "CardImage": {
@@ -605,7 +605,7 @@
   ],
   "CardName": {
     "DefaultText": "柠檬茶",
-    "LocalizationKey": "translate-ce222eb8-56e3-4c1b-a694-0e0542eb4820",
+    "LocalizationKey": "T-cfwMieeGUgiCbQ0GtnPCy2jMC2Y=",
     "ParentObjectID": "5481d599322f41d3b88249442ec4e8c0"
   },
   "CardTags": [],

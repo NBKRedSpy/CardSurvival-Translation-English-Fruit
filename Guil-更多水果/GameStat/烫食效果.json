@@ -32,7 +32,7 @@
   },
   "Description": {
     "DefaultText": "食用燥热的食物能够使你感到温热",
-    "LocalizationKey": "translate-3eb94d77-47fa-42d5-a410-49261b162f0a",
+    "LocalizationKey": "T-2hSQBq8aw7DhD1drxB8e8gTKkDQ=",
     "ParentObjectID": "c2762ca203444908a20093aed98fee84"
   },
   "FeedbackInfo": {
@@ -51,7 +51,7 @@
   },
   "GameName": {
     "DefaultText": "烫食",
-    "LocalizationKey": "translate-a1766b7b-d672-4199-ad8a-c669d0e146c9",
+    "LocalizationKey": "T-oXjQESoOrIf5y/I+XQiPc24947Q=",
     "ParentObjectID": "c2762ca203444908a20093aed98fee84"
   },
   "InvertedDirection": false,
@@ -118,7 +118,7 @@
       ],
       "GameName": {
         "DefaultText": "吃了一些烫食",
-        "LocalizationKey": "translate-38013e96-0139-441e-b781-d61b2251b9d8",
+        "LocalizationKey": "T-jmfiM+Wdcd3AIkp7XPk72SIxwa0=",
         "ParentObjectID": "c2762ca203444908a20093aed98fee84"
       },
       "GameOver": false,
@@ -187,7 +187,7 @@
       ],
       "GameName": {
         "DefaultText": "吃了许多烫食",
-        "LocalizationKey": "translate-1ec82935-aa9f-464d-a1dc-76aba06fd3a2",
+        "LocalizationKey": "T-tAmQBZbhFP3Rj5GEExWrS8u0IXc=",
         "ParentObjectID": "c2762ca203444908a20093aed98fee84"
       },
       "GameOver": false,

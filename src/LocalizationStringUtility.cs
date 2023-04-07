@@ -104,9 +104,16 @@ namespace LocalizationUtilities
 
                 Dictionary<string, string> translationLookup = new();
 
+                int lineIndex = 0;
                 foreach (KeyValuePair<string, List<string>> translation in translations)
                 {
+                    lineIndex++;
+
                     string key = translation.Key;
+                    if(translation.Value.Count <=0)
+                    {
+                        throw new ApplicationException($"translation key missing values.  line: {lineIndex} Key: '{translation.Key}'");
+                    }
                     string value = translation.Value[0];
 
                     //Overwrite if there are multiple entries

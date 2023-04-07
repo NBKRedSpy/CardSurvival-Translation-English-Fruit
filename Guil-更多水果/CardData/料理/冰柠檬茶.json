@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "冰冻过的柠檬茶，更爽啦！",
-    "LocalizationKey": "translate-e0f5a632-ae0d-487b-8f2c-ce74ca7f6e75",
+    "LocalizationKey": "T-dwguX70u3OdRc+qKZCCXXxtkMqM=",
     "ParentObjectID": "d196f43d14014712a42d371145d586d5"
   },
   "CardImage": {
@@ -605,7 +605,7 @@
   ],
   "CardName": {
     "DefaultText": "冰柠檬茶",
-    "LocalizationKey": "translate-c1fd1cfc-5851-43be-b183-155498d09b31",
+    "LocalizationKey": "T-jCZmORG8W7xBkNR8jPGtF2E410c=",
     "ParentObjectID": "d196f43d14014712a42d371145d586d5"
   },
   "CardTags": [],

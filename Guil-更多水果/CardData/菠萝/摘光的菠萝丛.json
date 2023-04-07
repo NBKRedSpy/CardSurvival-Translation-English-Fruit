@@ -693,7 +693,7 @@
   ],
   "CardName": {
     "DefaultText": "摘光的菠萝丛",
-    "LocalizationKey": "translate-b2261814-71d9-490e-a07c-3d05071c14e5",
+    "LocalizationKey": "T-VTapFhdEWb90C08YTwV6QiFfz2g=",
     "ParentObjectID": "65e1281ca23311eda96ec475ab46ec3f"
   },
   "CardTags": [],
@@ -1271,7 +1271,7 @@
     "Active": true,
     "CardStatName": {
       "DefaultText": "菠萝生长度",
-      "LocalizationKey": "translate-33186f9e-eb18-42d3-9803-00bdea8632d4",
+      "LocalizationKey": "T-iS7aGjztQNNs2PKv/pP2YTbv3Lc=",
       "ParentObjectID": "65e1281ca23311eda96ec475ab46ec3f"
     },
     "ExtraRateWhenEquipped": 0,

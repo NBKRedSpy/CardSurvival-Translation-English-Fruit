@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一个菠萝！",
-    "LocalizationKey": "translate-68c41344-2e9f-468d-8caf-dad80b88ad0a",
+    "LocalizationKey": "T-BVF6diElMT9zHTnAfVw8vC10rIg=",
     "ParentObjectID": "005bc580a23311edb167c475ab46ec3f"
   },
   "CardImage": {
@@ -465,7 +465,7 @@
   ],
   "CardName": {
     "DefaultText": "菠萝",
-    "LocalizationKey": "translate-b4362e6a-fa00-49b2-b0d8-8148fad5f776",
+    "LocalizationKey": "T-v3BbEnc9Bi1vbdwvHE9HoZKLtbM=",
     "ParentObjectID": "005bc580a23311edb167c475ab46ec3f"
   },
   "CardTags": [],

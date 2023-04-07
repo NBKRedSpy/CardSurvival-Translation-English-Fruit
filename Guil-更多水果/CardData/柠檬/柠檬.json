@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一个柠檬！",
-    "LocalizationKey": "translate-b8e130a7-125a-4a46-8911-99f8207a4743",
+    "LocalizationKey": "T-0iyxU2rAm5UXVbNvj8XhVI8ZV34=",
     "ParentObjectID": "7ef9b514a20e11ed8801c475ab46ec3f"
   },
   "CardImage": {
@@ -104,7 +104,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "柠檬",
-    "LocalizationKey": "translate-321fe2f9-e7dd-4d26-a1dd-18cb753980ac",
+    "LocalizationKey": "T-OgzNxFO0lEqJmxUv2gvdAJoPOlw=",
     "ParentObjectID": "7ef9b514a20e11ed8801c475ab46ec3f"
   },
   "CardTags": [],

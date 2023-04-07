@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一个西瓜！",
-    "LocalizationKey": "translate-94cb0377-7818-4e86-9067-89f1170df4ab",
+    "LocalizationKey": "T-yKwxcxMzOZgpAzW8naflsxiH1Z4=",
     "ParentObjectID": "eb1c2d24e3a74870af79ba7fd8ba2868"
   },
   "CardImage": {
@@ -104,7 +104,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "西瓜",
-    "LocalizationKey": "translate-524e3926-8b9f-4784-83d7-12a988c1cb18",
+    "LocalizationKey": "T-alifphffXjM34FH5jhxlCEmvI3I=",
     "ParentObjectID": "eb1c2d24e3a74870af79ba7fd8ba2868"
   },
   "CardTags": [],

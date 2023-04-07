@@ -90,7 +90,7 @@
   },
   "CardDescription": {
     "DefaultText": "长满了西瓜的西瓜藤。",
-    "LocalizationKey": "translate-1456d635-5442-42a1-b4e2-d1a89277576f",
+    "LocalizationKey": "T-2ygX4e1qgNnsgahsFOvqq9Sjkgk=",
     "ParentObjectID": "bfd1aca084f2429fa7c421c190ae5730"
   },
   "CardImage": {
@@ -102,7 +102,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "西瓜藤",
-    "LocalizationKey": "translate-a6080cd6-ab12-4ca6-b805-28d47fd301e4",
+    "LocalizationKey": "T-Xyw3M5bYcqDKvfuLH1CvPw61hq0=",
     "ParentObjectID": "bfd1aca084f2429fa7c421c190ae5730"
   },
   "CardTags": [],
@@ -188,7 +188,7 @@
       },
       "ActionName": {
         "DefaultText": "采摘",
-        "LocalizationKey": "translate-b70878c0-1607-4f4f-b903-8b3e5f7ac273",
+        "LocalizationKey": "T-mWUk9khCEH5ZUjm6wTLEsL5YQSY=",
         "ParentObjectID": "bfd1aca084f2429fa7c421c190ae5730"
       },
       "ActionSounds": [],
@@ -1067,7 +1067,7 @@
     "Active": false,
     "CardStatName": {
       "DefaultText": "菠萝生长度",
-      "LocalizationKey": "translate-33186f9e-eb18-42d3-9803-00bdea8632d4",
+      "LocalizationKey": "T-iS7aGjztQNNs2PKv/pP2YTbv3Lc=",
       "ParentObjectID": "bfd1aca084f2429fa7c421c190ae5730"
     },
     "ExtraRateWhenEquipped": 0,

@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一骑红尘妃子笑，无人知是荔枝来。",
-    "LocalizationKey": "translate-f0c6bad0-6c42-4d91-bc0b-3eaf0513caaa",
+    "LocalizationKey": "T-7/zwopxJe6MbNmlcNWxcKMNYRqs=",
     "ParentObjectID": "12b21ab9a20e11ed95c7c475ab46ec3f"
   },
   "CardImage": {
@@ -104,7 +104,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "荔枝",
-    "LocalizationKey": "translate-f8cb4177-02bf-46c1-a0d1-188a531283ae",
+    "LocalizationKey": "T-v6oQRhBSrNbB/JjkuKTHCoB5GpE=",
     "ParentObjectID": "12b21ab9a20e11ed95c7c475ab46ec3f"
   },
   "CardTags": [],

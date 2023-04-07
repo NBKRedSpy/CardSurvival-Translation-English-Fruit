@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一个奇异果！",
-    "LocalizationKey": "translate-7ad2e82d-6f81-47f3-8edf-8d70bdc7152a",
+    "LocalizationKey": "T-CdJJYFjh4+kFPO1UfbH/7Uo/mHQ=",
     "ParentObjectID": "8d7fa532a20e11edae2ec475ab46ec3f"
   },
   "CardImage": {
@@ -104,7 +104,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "奇异果",
-    "LocalizationKey": "translate-95cbf019-2169-445e-ac78-b201c47447b2",
+    "LocalizationKey": "T-ZVjrlbXH1a6wLcvC6FIp/itjIUQ=",
     "ParentObjectID": "8d7fa532a20e11edae2ec475ab46ec3f"
   },
   "CardTags": [],

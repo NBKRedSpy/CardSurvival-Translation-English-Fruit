@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一个火龙果！",
-    "LocalizationKey": "translate-5d112f0a-d5d6-45e0-9755-7bc4263b1159",
+    "LocalizationKey": "T-LVJvnzgS1A68+MHmKGRfgiSVaCI=",
     "ParentObjectID": "711a40d1a20e11ed82bbc475ab46ec3f"
   },
   "CardImage": {
@@ -104,7 +104,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "火龙果",
-    "LocalizationKey": "translate-99c1c8d9-fa8f-4b3e-ad3c-cfa3df3fa1e7",
+    "LocalizationKey": "T-EQ34WM0hGAPgKF6S+aanV/qBEps=",
     "ParentObjectID": "711a40d1a20e11ed82bbc475ab46ec3f"
   },
   "CardTags": [],

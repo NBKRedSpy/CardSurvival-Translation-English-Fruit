@@ -19,7 +19,7 @@
       },
       "ActionName": {
         "DefaultText": "种植荔枝",
-        "LocalizationKey": "translate-fa963bbd-0f24-45ce-b598-2757ea5d9e9f",
+        "LocalizationKey": "T-sMR4fODoOhgJgVPp5JpGzt0izc4=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],
@@ -386,7 +386,7 @@
       },
       "ActionName": {
         "DefaultText": "种植火龙果",
-        "LocalizationKey": "translate-0cd09029-6ea1-4fb9-8201-819796792054",
+        "LocalizationKey": "T-xzfovlJnzEx5y/THRyvkW5Aijcs=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],
@@ -753,7 +753,7 @@
       },
       "ActionName": {
         "DefaultText": "种植柠檬",
-        "LocalizationKey": "translate-362c8d2a-af5e-43ff-a8ad-f6f58be759e5",
+        "LocalizationKey": "T-4V7qL2urbtII4apd4qeOYckdsAI=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],
@@ -1120,7 +1120,7 @@
       },
       "ActionName": {
         "DefaultText": "种植奇异果",
-        "LocalizationKey": "translate-9e173a39-08af-47b9-98b9-5c1e0ff5d3ba",
+        "LocalizationKey": "T-TGJayxaZEiBAqK3dAqOo/X6qPVY=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],
@@ -1487,7 +1487,7 @@
       },
       "ActionName": {
         "DefaultText": "种植菠萝",
-        "LocalizationKey": "translate-fe01d737-5167-45f7-a464-2cd6458099b7",
+        "LocalizationKey": "T-B29YvMV8mOtxLTh7sSb1ZQDn1bk=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],
@@ -1854,7 +1854,7 @@
       },
       "ActionName": {
         "DefaultText": "种植西瓜",
-        "LocalizationKey": "translate-d3e3c8f1-3e44-4748-bea7-fb24fe5fe43e",
+        "LocalizationKey": "T-j/uyTze9Vuicnpyh+K6Srhym+/g=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],
@@ -2221,7 +2221,7 @@
       },
       "ActionName": {
         "DefaultText": "种植西红柿",
-        "LocalizationKey": "translate-946d71e9-21b1-445b-9253-63416c545667",
+        "LocalizationKey": "T-4a30ejtjgPQBHIIXKbxgz8SyFvo=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],
@@ -2588,7 +2588,7 @@
       },
       "ActionName": {
         "DefaultText": "种植洋葱",
-        "LocalizationKey": "translate-6ab8bf25-b84d-4969-ae8c-380cff995a7d",
+        "LocalizationKey": "T-52YMvZzTMFVs1t4kzZkLL/Eculo=",
         "ParentObjectID": "0308e91cdd2d6aa44a9ed0f8187f88d3"
       },
       "ActionSounds": [],

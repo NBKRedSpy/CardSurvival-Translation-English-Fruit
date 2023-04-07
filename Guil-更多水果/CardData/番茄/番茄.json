@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一个番茄！",
-    "LocalizationKey": "translate-cb8d3e4f-9509-4f11-91c1-b4c3143feac1",
+    "LocalizationKey": "T-nq7tW+aMALt1WnWpw/jTfoVQJkA=",
     "ParentObjectID": "e6db3ee4e30c4c49a507d39579a1fa20"
   },
   "CardImage": {
@@ -104,7 +104,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "番茄",
-    "LocalizationKey": "translate-eeeefd83-2f7c-4449-b4e7-ca9eed5b30e5",
+    "LocalizationKey": "T-8bdg8dauvsWqZH8zE0GrpSLzrJs=",
     "ParentObjectID": "e6db3ee4e30c4c49a507d39579a1fa20"
   },
   "CardTags": [],

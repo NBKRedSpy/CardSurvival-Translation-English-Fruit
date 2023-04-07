@@ -32,7 +32,7 @@
   },
   "Description": {
     "DefaultText": "食用冰冷的食物能够使你感到凉爽",
-    "LocalizationKey": "translate-4fb76665-b529-4c2e-80ad-e34e7ff40d22",
+    "LocalizationKey": "T-ZsHq8s7wksWZt0kJw0h80iDyLBY=",
     "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
   },
   "FeedbackInfo": {
@@ -51,7 +51,7 @@
   },
   "GameName": {
     "DefaultText": "冰食",
-    "LocalizationKey": "translate-a099d489-d321-4c42-a765-8ab35a73c600",
+    "LocalizationKey": "T-XEZ+yM3F8gNO9bPD+sigp114Sgc=",
     "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
   },
   "InvertedDirection": false,
@@ -118,7 +118,7 @@
       ],
       "GameName": {
         "DefaultText": "吃了一些冰食",
-        "LocalizationKey": "translate-2418d948-8dec-40de-8678-86e7c1869085",
+        "LocalizationKey": "T-+7vQNtC8FjaEuMN2rdcjdcSYbxk=",
         "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
       },
       "GameOver": false,
@@ -187,7 +187,7 @@
       ],
       "GameName": {
         "DefaultText": "吃了许多冰食",
-        "LocalizationKey": "translate-35410531-32d8-4c29-92ac-7dba4c05b610",
+        "LocalizationKey": "T-TMYaMgL8alznAhDJxQkhf0pjfnM=",
         "ParentObjectID": "a0eecea638a042c991d477803f15f22d"
       },
       "GameOver": false,

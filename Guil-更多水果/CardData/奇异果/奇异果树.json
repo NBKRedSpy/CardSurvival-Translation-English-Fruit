@@ -90,7 +90,7 @@
   },
   "CardDescription": {
     "DefaultText": "我可以在这里采摘其果实。",
-    "LocalizationKey": "translate-a29c5389-e5b3-476d-aef3-d9c326b3c54e",
+    "LocalizationKey": "T-FmHmKGAmiV3Q9Kh3R40Go24Luas=",
     "ParentObjectID": "a599d018a22311edb5b2c475ab46ec3f"
   },
   "CardImage": {
@@ -102,7 +102,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "奇异果树",
-    "LocalizationKey": "translate-bd8155fc-e2e0-4768-a0c4-7dc6afa83ffe",
+    "LocalizationKey": "T-xFWM1OWZsGvlgm2MsQ3KebWctUw=",
     "ParentObjectID": "a599d018a22311edb5b2c475ab46ec3f"
   },
   "CardTags": [],
@@ -184,7 +184,7 @@
       },
       "ActionName": {
         "DefaultText": "采摘",
-        "LocalizationKey": "translate-b70878c0-1607-4f4f-b903-8b3e5f7ac273",
+        "LocalizationKey": "T-mWUk9khCEH5ZUjm6wTLEsL5YQSY=",
         "ParentObjectID": "a599d018a22311edb5b2c475ab46ec3f"
       },
       "ActionSounds": [],
@@ -585,7 +585,7 @@
     "Active": true,
     "CardStatName": {
       "DefaultText": "水果生长度",
-      "LocalizationKey": "translate-4bce86f0-43e2-4413-95f1-926ae7762535",
+      "LocalizationKey": "T-4kWMCgZHnB7rIoC5LxTV9y/NZy4=",
       "ParentObjectID": "a599d018a22311edb5b2c475ab46ec3f"
     },
     "ExtraRateWhenEquipped": 0,

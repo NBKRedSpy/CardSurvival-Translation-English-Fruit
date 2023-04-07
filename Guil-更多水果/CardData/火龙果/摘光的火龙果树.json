@@ -90,7 +90,7 @@
   },
   "CardDescription": {
     "DefaultText": "它会再长出果实的。",
-    "LocalizationKey": "translate-8755c78c-8d2d-416c-9686-0364eeed12a7",
+    "LocalizationKey": "T-AnIIAxhraYj+zKcuq1N+rOdku98=",
     "ParentObjectID": "d761cd35a22311eda0adc475ab46ec3f"
   },
   "CardImage": {
@@ -1001,7 +1001,7 @@
   ],
   "CardName": {
     "DefaultText": "摘光的火龙果树",
-    "LocalizationKey": "translate-f66e135b-7294-4cdb-a5d6-74cbe25614ca",
+    "LocalizationKey": "T-OLAH0we3u31iwy5jO9NXbOgKfYw=",
     "ParentObjectID": "d761cd35a22311eda0adc475ab46ec3f"
   },
   "CardTags": [],
@@ -1082,7 +1082,7 @@
     "Active": true,
     "CardStatName": {
       "DefaultText": "水果生长度",
-      "LocalizationKey": "translate-4bce86f0-43e2-4413-95f1-926ae7762535",
+      "LocalizationKey": "T-4kWMCgZHnB7rIoC5LxTV9y/NZy4=",
       "ParentObjectID": "d761cd35a22311eda0adc475ab46ec3f"
     },
     "ExtraRateWhenEquipped": 0,
@@ -1094,7 +1094,7 @@
     "OnFull": {
       "ActionDescription": {
         "DefaultText": "果子又长出来了！",
-        "LocalizationKey": "translate-b83ff3e7-387d-4105-b7ce-021be5852b5b",
+        "LocalizationKey": "T-FOzuVdc9wIysJJxSk0Qmrcyp07w=",
         "ParentObjectID": "d761cd35a22311eda0adc475ab46ec3f"
       },
       "ActionLog": {

@@ -565,7 +565,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "番茄炒蛋",
-    "LocalizationKey": "translate-29560148-0a42-4e79-8a95-4b1d77c6316a",
+    "LocalizationKey": "T-acPh0K6kDuWJxHPp46zr7HL4c+o=",
     "ParentObjectID": "32dd0aa7cbe04d839a188956a9d187d4"
   },
   "CardTags": [],
@@ -3749,7 +3749,7 @@
   "UniqueOnBoard": false,
   "UnlockConditionsDesc": {
     "DefaultText": "需要番茄",
-    "LocalizationKey": "translate-745f3199-f4cd-4482-a1a4-7ca6959c68cd",
+    "LocalizationKey": "T-VfyiQ9VrT/To7udV24Pme5BZ5vE=",
     "ParentObjectID": "32dd0aa7cbe04d839a188956a9d187d4"
   },
   "UsageDurability": {

@@ -90,7 +90,7 @@
   },
   "CardDescription": {
     "DefaultText": "长满了番茄的番茄藤。",
-    "LocalizationKey": "translate-b622f91b-5b91-4c43-ac16-15f015910b8a",
+    "LocalizationKey": "T-TOmOZl9QA0LbuX8oOcH/8Y7nx48=",
     "ParentObjectID": "b16683ccc75d4baa98d3f6efb297dd25"
   },
   "CardImage": {
@@ -102,7 +102,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "番茄藤",
-    "LocalizationKey": "translate-96b56ac1-7381-4942-9395-29221ae0d1b8",
+    "LocalizationKey": "T-HTmNe0rxWu/rFDyYBvZLWmnBvGo=",
     "ParentObjectID": "b16683ccc75d4baa98d3f6efb297dd25"
   },
   "CardTags": [],
@@ -188,7 +188,7 @@
       },
       "ActionName": {
         "DefaultText": "采摘",
-        "LocalizationKey": "translate-b70878c0-1607-4f4f-b903-8b3e5f7ac273",
+        "LocalizationKey": "T-mWUk9khCEH5ZUjm6wTLEsL5YQSY=",
         "ParentObjectID": "b16683ccc75d4baa98d3f6efb297dd25"
       },
       "ActionSounds": [],
@@ -1067,7 +1067,7 @@
     "Active": false,
     "CardStatName": {
       "DefaultText": "菠萝生长度",
-      "LocalizationKey": "translate-33186f9e-eb18-42d3-9803-00bdea8632d4",
+      "LocalizationKey": "T-iS7aGjztQNNs2PKv/pP2YTbv3Lc=",
       "ParentObjectID": "b16683ccc75d4baa98d3f6efb297dd25"
     },
     "ExtraRateWhenEquipped": 0,

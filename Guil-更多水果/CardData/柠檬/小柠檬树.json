@@ -90,7 +90,7 @@
   },
   "CardDescription": {
     "DefaultText": "一颗小树，它会长大的。",
-    "LocalizationKey": "translate-ec15d770-ac49-4dec-95eb-61dbb0d15bc2",
+    "LocalizationKey": "T-kf4a/vT3/t/YfPIP4cVgWsJRZr4=",
     "ParentObjectID": "b2bd9ce3a22311ed879fc475ab46ec3f"
   },
   "CardImage": {
@@ -693,7 +693,7 @@
   ],
   "CardName": {
     "DefaultText": "小柠檬树",
-    "LocalizationKey": "translate-8391ad3d-d1a2-43bd-8b8a-871636e53941",
+    "LocalizationKey": "T-7BNS0YDrCN3mzRiGWxW2V6K0fkQ=",
     "ParentObjectID": "b2bd9ce3a22311ed879fc475ab46ec3f"
   },
   "CardTags": [],
@@ -1283,7 +1283,7 @@
     "OnFull": {
       "ActionDescription": {
         "DefaultText": "树长成了！",
-        "LocalizationKey": "translate-b40a23df-7efe-41e4-96b3-5b0b8beb77b3",
+        "LocalizationKey": "T-Gnrknk3VHyXdGn+r1zT1yKxwL9Q=",
         "ParentObjectID": "b2bd9ce3a22311ed879fc475ab46ec3f"
       },
       "ActionLog": {

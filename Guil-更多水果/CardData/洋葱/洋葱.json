@@ -92,7 +92,7 @@
   "CardBackgroundWarpType": 3,
   "CardDescription": {
     "DefaultText": "一个洋葱！",
-    "LocalizationKey": "translate-9ba81753-279e-4fbc-8dd0-999d7bd61c34",
+    "LocalizationKey": "T-zwYY57WnqXa9wyqlfhO4vaIPp3M=",
     "ParentObjectID": "b18dcaeb2e9f4a0e95c9302e48142dac"
   },
   "CardImage": {
@@ -104,7 +104,7 @@
   "CardInteractions": [],
   "CardName": {
     "DefaultText": "洋葱",
-    "LocalizationKey": "translate-3626bcfe-952e-43a9-8d32-5f6320fb11c5",
+    "LocalizationKey": "T-JcGv5WGfiuq6/QTdtWKk7bbCvTo=",
     "ParentObjectID": "b18dcaeb2e9f4a0e95c9302e48142dac"
   },
   "CardTags": [],

@@ -705,7 +705,7 @@
   ],
   "CardName": {
     "DefaultText": "菠萝丛",
-    "LocalizationKey": "translate-c2fbcf22-e3e0-4652-aeff-4dd3de789c86",
+    "LocalizationKey": "T-Ac2XQZ97ysCSGHrSDrDnMTVoqpE=",
     "ParentObjectID": "5d02cea6a23311ed897bc475ab46ec3f"
   },
   "CardTags": [],
@@ -1672,7 +1672,7 @@
     "Active": false,
     "CardStatName": {
       "DefaultText": "菠萝生长度",
-      "LocalizationKey": "translate-33186f9e-eb18-42d3-9803-00bdea8632d4",
+      "LocalizationKey": "T-iS7aGjztQNNs2PKv/pP2YTbv3Lc=",
       "ParentObjectID": "5d02cea6a23311ed897bc475ab46ec3f"
     },
     "ExtraRateWhenEquipped": 0,
