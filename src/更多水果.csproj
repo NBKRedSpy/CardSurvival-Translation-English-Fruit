@@ -11,10 +11,20 @@
   <PropertyGroup />
   <ItemGroup />
   <ItemGroup>
-    <Reference Include="BepInEx" />
-    <Reference Include="Assembly-CSharp" />
-    <Reference Include="0Harmony" />
-    <Reference Include="UnityEngine.CoreModule" />
-    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="BepInEx">
+      <HintPath>D:\Games\Steam\steamapps\common\Card Survival Tropical Island\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\Games\Steam\steamapps\common\Card Survival Tropical Island\Card Survival - Tropical Island_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>D:\Games\Steam\steamapps\common\Card Survival Tropical Island\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Games\Steam\steamapps\common\Card Survival Tropical Island\Card Survival - Tropical Island_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\Games\Steam\steamapps\common\Card Survival Tropical Island\Card Survival - Tropical Island_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
