@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using BepInEx;
 using HarmonyLib;
+using LocalizationUtilities;
 using UnityEngine;
 
 namespace MoreFruit;
@@ -13,19 +15,24 @@ public class MoreFruit : BaseUnityPlugin
 {
 	private static Dictionary<string, CardData> card_dict = new Dictionary<string, CardData>();
 
+	//Plants List
 	private static List<string> 植株丛List = new List<string> { "菠萝丛", "西红柿藤", "火龙果树", "荔枝树", "柠檬树", "奇异果树", "西瓜藤" };
 
-	private static List<string> 果汁水果名称List = new List<string> { "菠萝", "柠檬", "番茄", "西瓜", "奇异果", "火龙果", "荔枝" };
+    //Fruits of fruit juice
+    private static List<string> 果汁水果名称List = new List<string> { "菠萝", "柠檬", "番茄", "西瓜", "奇异果", "火龙果", "荔枝" };
 
-	private static List<string> 果汁GuidList = new List<string> { "0b7c3c07ea56426f802fd9085f14687e", "8db3fb26c4fe4e9b9abc179dece7dfe3", "3a4e3ee642c744afb5e754f992861014", "3d6546503cf240319ce8eafc2c50e8f6", "32cb55a50f034433a52f1a0a18955f81", "f6d5033eeab44cfc9ccd92e2e18b7b70", "227c4fe3effc4af6900eb422da3e6eb4" };
+    //juice GuidList
+    private static List<string> 果汁GuidList = new List<string> { "0b7c3c07ea56426f802fd9085f14687e", "8db3fb26c4fe4e9b9abc179dece7dfe3", "3a4e3ee642c744afb5e754f992861014", "3d6546503cf240319ce8eafc2c50e8f6", "32cb55a50f034433a52f1a0a18955f81", "f6d5033eeab44cfc9ccd92e2e18b7b70", "227c4fe3effc4af6900eb422da3e6eb4" };
 
 	private static List<string> 水井水窖 = new List<string> { "f27eba0b8db0f5a4da4f552db987006c", "efcd6982c566b5c4ab2851da091618ab" };
+    //Juice
+    public static CardData 果汁模板;
 
-	public static CardData 果汁模板;
+    //Juice
+    private static List<CardData> 果汁列表 = new List<CardData>();
 
-	private static List<CardData> 果汁列表 = new List<CardData>();
-
-	public static CardData 酿造台;
+    //酿造台 Brewing table
+    public static CardData 酿造台;
 
 	public static CardData 酿造台_通电;
 
@@ -33,7 +40,14 @@ public class MoreFruit : BaseUnityPlugin
 
 	private void Awake()
 	{
-		Harmony harmony = new Harmony(base.Info.Metadata.GUID);
+        LocalizationStringUtility.Init(
+            Config.Bind<bool>("Debug", "LogCardInfo", false, "If true, will output the localization keys for the cards")
+                .Value,
+            Info.Location,
+            Logger
+        );
+
+        Harmony harmony = new Harmony(base.Info.Metadata.GUID);
 		BindingFlags bindingAttr = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic;
 		try
 		{
@@ -68,14 +82,16 @@ public class MoreFruit : BaseUnityPlugin
 		cardData.name = "Guil-更多水果_" + 水果名称 + "汁";
 		cardData.Init();
 		cardData.CardDescription.DefaultText = 水果名称 + "榨成的果汁，可以喝。";
-		cardData.CardDescription.ParentObjectID = cardData.UniqueID;
+		cardData.CardDescription.SetLocalizationInfo();
+        cardData.CardDescription.ParentObjectID = cardData.UniqueID;
 		Texture2D texture2D = new Texture2D(200, 300);
 		string path = Environment.CurrentDirectory + "\\BepInEx\\plugins\\Guil-更多水果\\Resource\\Picture\\" + 水果名称 + "汁.png";
 		texture2D.LoadImage(File.ReadAllBytes(path));
 		Sprite cardImage = Sprite.Create(texture2D, new Rect(0f, 0f, texture2D.width, texture2D.height), Vector2.zero);
 		cardData.CardImage = cardImage;
 		cardData.CardName.DefaultText = 水果名称 + "汁";
-		cardData.CardName.ParentObjectID = cardData.UniqueID;
+        cardData.CardName.SetLocalizationInfo();
+        cardData.CardName.ParentObjectID = cardData.UniqueID;
 		cardData.CardType = CardTypes.Item;
 		GameLoad.Instance.DataBase.AllData.Add(cardData);
 		果汁列表.Add(cardData);
@@ -91,13 +107,16 @@ public class MoreFruit : BaseUnityPlugin
 		}
 		LocalizedString localizedString = default(LocalizedString);
 		localizedString.DefaultText = "榨汁";
-		localizedString.ParentObjectID = (是否通电 ? 酿造台_通电.UniqueID : 酿造台.UniqueID);
-		localizedString.LocalizationKey = "Guil-更多水果_榨汁";
+        localizedString.ParentObjectID = (是否通电 ? 酿造台_通电.UniqueID : 酿造台.UniqueID);
+		localizedString.SetLocalizationInfo();
+
 		LocalizedString localizedString2 = localizedString;
 		localizedString = default(LocalizedString);
 		localizedString.DefaultText = "将水果榨成果汁";
+		localizedString.SetLocalizationInfo();
 		localizedString.ParentObjectID = (是否通电 ? 酿造台_通电.UniqueID : 酿造台.UniqueID);
 		LocalizedString desc = localizedString;
+
 		CardOnCardAction cardOnCardAction = new CardOnCardAction(localizedString2, desc, (!是否通电) ? 1 : 0);
 		Array.Resize(ref cardOnCardAction.CompatibleCards.TriggerCards, 1);
 		cardOnCardAction.CompatibleCards.TriggerCards[0] = value;
@@ -183,12 +202,14 @@ public class MoreFruit : BaseUnityPlugin
 		LocalizedString localizedString = default(LocalizedString);
 		localizedString.DefaultText = ActionName;
 		localizedString.ParentObjectID = "";
-		localizedString.LocalizationKey = "Guil-更多水果_Dummy";
+		localizedString.SetLocalizationInfo();
+
 		LocalizedString localizedString2 = localizedString;
 		localizedString = default(LocalizedString);
 		localizedString.DefaultText = ActionDescription;
 		localizedString.ParentObjectID = "";
-		localizedString.LocalizationKey = "Guil-更多水果_Dummy";
+		localizedString.SetLocalizationInfo();
+
 		LocalizedString desc = localizedString;
 		CardOnCardAction cardOnCardAction = new CardOnCardAction(localizedString2, desc, duration);
 		Array.Resize(ref cardOnCardAction.CompatibleCards.TriggerCards, 1);
@@ -244,7 +265,9 @@ public class MoreFruit : BaseUnityPlugin
 			CardData cardData = utc(item);
 			Array.Resize(ref cardData.InventorySlots, 4);
 			cardData.InventorySlotsText.DefaultText = "西瓜";
-		}
+			cardData.InventorySlotsText.SetLocalizationInfo();
+
+        }
 		果汁模板 = utc("784f07839d6d11eda7cc047c16184f06");
 		int num = 0;
 		if (果汁模板 != null)
