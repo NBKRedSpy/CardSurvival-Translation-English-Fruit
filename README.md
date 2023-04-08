@@ -1,3 +1,7 @@
+
+# TODO
+Need the source code from guilyou492 to integrate the changes.  The current .dll code is decompiled.
+
 # More Fruit Translation
 This is an unofficial English translation of guilyou492's More Fruit mod.
 
