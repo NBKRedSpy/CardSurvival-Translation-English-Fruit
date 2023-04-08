@@ -10,3 +10,5 @@ This repository will be removed when or if the author integrates an English tran
 To use, download the .zip from the releases page and install as normal.
 
 Description is in the NexusModDescription-English.txt file.
+
+![Alt text](media/Fruit%20-%20English.png)
