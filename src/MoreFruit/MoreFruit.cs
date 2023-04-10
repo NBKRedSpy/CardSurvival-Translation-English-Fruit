@@ -9,7 +9,7 @@ using LocalizationUtilities;
 
 namespace MoreFruit
 {
-[BepInPlugin("Plugin.MoreFruit", "MoreFruit", "1.0.0")]
+[BepInPlugin("Plugin.MoreFruit", "MoreFruit", "1.0.3")]
 public class MoreFruit : BaseUnityPlugin
 {
 
