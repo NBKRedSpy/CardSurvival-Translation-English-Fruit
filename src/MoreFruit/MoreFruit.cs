@@ -1,22 +1,18 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Reflection.Emit;
-using System.Security.Cryptography;
-using System.Xml.Linq;
 using BepInEx;
 using HarmonyLib;
 using UnityEngine;
+using LocalizationUtilities;
 
 namespace MoreFruit
 {
 [BepInPlugin("Plugin.MoreFruit", "MoreFruit", "1.0.0")]
 public class MoreFruit : BaseUnityPlugin
 {
-	private static Dictionary<string, CardData> card_dict = new Dictionary<string, CardData>();
+
 	private void Awake()
 	{
         LocalizationStringUtility.Init(
@@ -88,7 +84,7 @@ public class MoreFruit : BaseUnityPlugin
 			"f27eba0b8db0f5a4da4f552db987006c",//水井
 			"efcd6982c566b5c4ab2851da091618ab"//水窖
 		};
-	public static CardData utc(string uniqueID)
+		public static CardData utc(String uniqueID)
 	{
 		return UniqueIDScriptable.GetFromID<CardData>(uniqueID);
 	}
@@ -105,7 +101,7 @@ public class MoreFruit : BaseUnityPlugin
 			果汁.name = "Guil-更多水果_" + 水果名称 + "汁";
 			果汁.Init();
 			果汁.CardDescription.DefaultText = 水果名称 + "榨成的果汁，可以喝。";
-		cardData.CardDescription.SetLocalizationInfo();
+            果汁.CardDescription.SetLocalizationInfo();	
             果汁.CardDescription.ParentObjectID = 果汁.UniqueID;
 
 			Texture2D texture2D = new Texture2D(200, 300); 
@@ -238,7 +234,6 @@ public class MoreFruit : BaseUnityPlugin
 			{
 				DefaultText = ActionName,
 				ParentObjectID = "",
-				LocalizationKey = "Guil-更多水果_Dummy"
 			};
 			
 			name1.SetLocalizationInfo();
@@ -247,7 +242,6 @@ public class MoreFruit : BaseUnityPlugin
 			{
 				DefaultText = ActionDescription,
 				ParentObjectID = "",
-				LocalizationKey = "Guil-更多水果_Dummy"
 			};
 			
 			name2.SetLocalizationInfo();
@@ -305,7 +299,7 @@ public class MoreFruit : BaseUnityPlugin
 				CardData shui = utc(uid);
 				Array.Resize(ref shui.InventorySlots, 4);
 				shui.InventorySlotsText.DefaultText = "西瓜";
-				shui.InventorySlots.SetLocalizationInfo();
+				shui.InventorySlotsText.LocalizationKey = "西瓜_Key";
 			}
 			//生成更多果汁
 			果汁模板 = utc("784f07839d6d11eda7cc047c16184f06");
