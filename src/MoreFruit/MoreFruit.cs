@@ -299,7 +299,7 @@ public class MoreFruit : BaseUnityPlugin
 				CardData shui = utc(uid);
 				Array.Resize(ref shui.InventorySlots, 4);
 				shui.InventorySlotsText.DefaultText = "西瓜";
-				shui.InventorySlotsText.LocalizationKey = "西瓜_Key";
+				shui.InventorySlotsText.LocalizationKey = "watermelon";
 			}
 			//生成更多果汁
 			果汁模板 = utc("784f07839d6d11eda7cc047c16184f06");
